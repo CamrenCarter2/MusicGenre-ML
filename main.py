@@ -44,7 +44,7 @@ def main():
     
     model = joblib.load('genre_classifier_model.pkl')
 
-    uploaded_file = st.file_uploader("Choose a .wav audio file", type="wav")
+    uploaded_file = st.file_uploader("Please choose a .wav audio file", type="wav")
 
     if uploaded_file is not None:
 
